@@ -1,5 +1,5 @@
-import { hashPassword } from "../../../helpers/auth";
-import { createUser } from "../../../prisma/user";
+import { hashPassword } from '@/helpers/auth';
+import { createUser } from '../../../prisma/user';
 
 export default async function handle(req, res) {
   try {
